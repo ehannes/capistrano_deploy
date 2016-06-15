@@ -1,3 +1,9 @@
+# Branches
+This is the master branch of this project. Do not run capistrano in this branch.
+Instead, create a separate branch for each server and application you want to
+deploy and set the configuration accordingly. And remember to not share those
+configurations publicly!
+
 # Deployment
 This readme explains how to deploy using the current setup of Capistrano
 (with Phusion Passenger and NGINX as server, MYSQL as database, Git as version
