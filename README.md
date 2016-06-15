@@ -93,7 +93,7 @@ bundle exec cap production deploy
 #### First time deployment
 If this is a first time deployment, there are  several steps to cover on the
 live server. Some of them can be found in the [live server
-section](#-live-server-environment).
+section](#live-server-environment).
 
 #### Updating the application
 When updating the application at the live server the following steps are
