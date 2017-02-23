@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 
 group :development do
   # Deploy Rails
-  gem 'capistrano-rails', '1.1.3'
+  gem 'capistrano-rails'
   # Rails is installed with rbenv
-  gem 'capistrano-rbenv', github: "capistrano/rbenv"
+  gem 'capistrano-rbenv', github: 'capistrano/rbenv'
   # Suppress echoed text like passwords
-  gem 'highline', '1.7.7'
+  gem 'highline'
 end
